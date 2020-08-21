@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .time-item {
+            width: 450px;
+            height: 45px;
+            margin: 0 auto;
+        }
+
+        .time-item strong {
+            background: orange;
+            color: #fff;
+            line-height: 49px;
+            font-size: 36px;
+            font-family: Arial;
+            padding: 0 10px;
+            margin-right: 10px;
+            border-radius: 5px;
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+        }
+
+        .time-item>span {
+            float: left;
+            line-height: 49px;
+            color: orange;
+            font-size: 32px;
+            margin: 0 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .title {
+            width: 260px;
+            height: 50px;
+            margin: 200px auto 50px auto;
+        }
+    </style>
+</head>
+<body>
+<h1 class="title">距离光棍节，还有</h1>
+
+<div class="time-item">
+    <span><span id="day">00</span>天</span>
+    <strong><span id="hour">00</span>时</strong>
+    <strong><span id="minute">00</span>分</strong>
+    <strong><span id="second">00</span>秒</strong>
+</div>
+<script>
+     var day = document.querySelector('#day')
+     var hour = document.querySelector('#hour')
+     var minute = document.querySelector('#minute')
+     var second = document.querySelector('#second')
+    var inputTime = +new Date('2020-11-11 00:00:00')
+     countDown()//先调用一次,防止第一次加载有空白
+     //开启定时器
+     setInterval(countDown,1000)
+
+
+     function countDown() {
+         var nowTime = +new Date();
+         var times = (inputTime - nowTime) / 1000   //总秒数
+         //console.log(times)
+         var d = parseInt(times/60/60/24)
+         d < 10 ? '0' + d : d
+         var h = parseInt(times / 60 / 60 % 24) //变成小时了
+         h < 10 ? '0' + h : h
+         var m = parseInt(times / 60 % 60)
+         m < 10 ? '0' + m : m
+         var s = parseInt(times % 60)
+         s < 10 ? '0' + s : s
+         day.innerHTML = d
+         hour.innerHTML = h
+         minute.innerHTML = m
+         second.innerHTML = s
+     }
+</script>
+</body>
+</html>
