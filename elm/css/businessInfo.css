@@ -1,0 +1,194 @@
+.app{
+	width: 100%;
+	height: 100%;
+}
+.app header{
+	width: 100%;
+	height: 12vw;
+	background-color: #0097FF;
+	color: #FFFFFF;
+	font-size: 4.8vw;
+	
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.business-logo{
+	width: 100%;
+	height: 35vw;
+	margin-top: 12vw;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.business-logo img{
+	width: 40vw;
+	border-radius: 5px;
+	height: 30vw;
+}
+.business-text{
+	width: 100%;
+	height: 20vw;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.business-text h1{
+	font-size: 5vw;
+}
+.business-text p{
+	margin-top: 2vw;
+}
+.footinfo{
+	width: 100%;
+    margin-bottom: 14vw;
+}
+.footinfo li{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 2.5vw;
+	user-select: none;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footleft{
+	display: flex;
+	align-items: center;
+}
+.footleft img{
+	width: 18vw;
+	height: 18vw;
+}
+.foottext{
+	margin-left: 3vw;
+}
+.foottext h3{
+	font-size: 3.8vw;
+}
+.foottext p {
+	font-size: 3vw;
+	color: #888;
+	margin-top: 2vw;
+}
+.footright{
+	width: 16vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.fa-minus-circle{
+	font-size: 5.5vw;
+	color: #999999;
+}
+.footright p{
+	font-size: 3.6vw;
+	color: #333333;
+}
+.fa-plus-circle{
+	font-size:5.5vw ;
+	color: #0097FF;
+	cursor: pointer;
+}
+.shopcar{
+	width: 100%;
+	height: 14vw;
+	
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	
+	display: flex;
+}
+.shopcarleft{
+	flex:2;
+	background-color: #505051;
+	display: flex;
+}
+.shopcarright{
+	flex:1;
+	background-color: #38CA73;
+}
+.shopcarimg{
+	width: 16vw;
+	height: 16vw;
+	box-sizing: border-box;
+	border: solid 1.6vw #444;
+	border-radius: 8vw;
+	background-color: #3190E8;
+	font-size: 7vw;
+	color: #fff;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	margin-top: -4vw;
+	margin-left: 3vw;
+	
+	position: relative;
+}
+.count{
+	width: 5vw;
+	height: 5vw;
+	border-radius: 2.5vw;
+	background-color: red;
+	color: #fff;
+	font-size: 3.6vw;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	position: absolute;
+	right: -1.5vw;
+	top: -1.5vw;
+}
+.shopcarinfo p:first-child{
+	font-size: 4.5vw;
+	color: #FFFFFF;
+     margin-top: 1vw;
+}
+.shopcarinfo p:last-child{
+	font-size: 2.8vw;
+	color: #AAA;
+	
+}
+.sendstart{
+	width: 100%;
+	height: 100%;
+	background-color: #38CA73;
+	color: #FFFFFF;
+	font-size: 4.5vw;
+	font-weight: 700;
+	user-select: none;
+	cursor: pointer;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*.sendstart{
+	width: 100%;
+	height: 100%;
+	background-color: #535356;
+	color: #FFFFFF;
+	font-size: 4.5vw;
+	font-weight: 700;
+	user-select: none;
+
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}*/

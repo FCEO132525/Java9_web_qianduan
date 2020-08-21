@@ -1,0 +1,361 @@
+.app{
+    width: 100%;
+    height: 100%;
+}
+.app header{
+    width: 100%;
+    height: 12vw;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+}
+.app header .fa-icon{
+    width: 3.5vw;
+    height: 3.5vw;
+    margin: 0 1vw 0 3vw;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.app header .text{
+    font-size: 4.5vw;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.app header .fa-caret-down{
+    margin-left: 1vw;
+}
+.search{
+    width: 100%;
+    height: 13vw;
+}
+.search1{
+    width: 100%;
+    height: 13vw;
+    background-color: #0000FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search2{
+    width: 90%;
+    height: 9vw;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5vw;
+    font-family: "宋体";
+    color: #EEEEEE;
+    /*此样式是让文本选中状态无效*/
+    user-select: none;
+}
+.search2 .fa-search{
+    margin-right: 1vw;
+}
+.foottype{
+    width: 100%;
+    height: 48vw;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.foottype li{
+    width: 18vw;
+    height: 20vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    user-select: none;
+    cursor: pointer;
+}
+.foottype li img{
+    width: 12vw;
+    height: 12vw;
+    border-radius: 5px;
+
+}
+.foottype li p{
+    font-size: 3.2vw;
+    color: gray;
+}
+.banner{
+    width: 95%;
+    height: 29vw;
+    margin: 0 auto;
+
+    background-image: url(../img/70.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    box-sizing: border-box;
+    padding: 2vw 6vw;
+}
+.banner h3{
+    font-size: 4.2vw;
+    margin-bottom: 1.2vw;
+
+}
+.banner p{
+    font-size: 3.4vw;
+    color: #666;
+    margin-bottom: 2.4vw;
+}
+.banner a{
+    font-size: 3vw;
+    color: #C79060;
+    font-weight: 700;
+}
+.supermember{
+    width: 95%;
+    height: 11.5vw;
+    margin: 0 auto;
+    background-color: #FEEDC1;
+    margin-top: 1.3vw;
+    border-radius: 3px;
+    color: #644F1B;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.supermember .left{
+    display: flex;
+    align-items: center;
+    margin-left: 4vw;
+    user-select: none;
+}
+.supermember .left img{
+    width: 6vw;
+    height: 6vw;
+    margin-right: 2vw;
+}
+.supermember .left h3{
+    font-size: 4vw;
+    margin-right: 2vw;
+
+}
+.supermember .left p{
+    font-size: 3vw;
+
+}
+.supermember .right{
+    font-size: 3vw;
+    margin-right: 1vw;
+    cursor: pointer;
+}
+.buyer{
+    width: 100%;
+    height: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buyerline{
+    width: 6vw;
+    height: 0.2vw;
+    background-color: #808080;
+}
+.buyer p {
+    font-size: 4vw;
+    margin: 0 2vw;
+}
+.daohang{
+    width:100% ;
+    height:5vw ;
+    display: flex;
+    margin-bottom: 1vw;
+    justify-content: space-around;
+    align-items: center;
+}
+.daohang  li{
+    font-size: 3.5vw;
+    color: #808080;
+}
+.list{
+    width: 100%;
+    margin-bottom: 14vw;
+
+}
+.list li{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2.5vw;
+    user-select: none;
+    border-bottom: solid 1px #DDDDDD;
+
+    display: flex;
+}
+.list img{
+    width: 18vw;
+    height: 18vw;
+}
+.listright{
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 3vw ;
+}
+.listright-h{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2vw;
+}
+.listright-h h3{
+    font-size: 4vw;
+    color: #333;
+}
+.listright-h-r{
+    width: 1.6vw;
+    height: 3.4vw;
+    color: #EEEEEE;
+    background-color:black ;
+    font-size: 4vw;
+    margin-right:2vw ;
+
+
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.star{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2vw;
+    font-size: 2.5vw;
+}
+.star1{
+    display: flex;
+    align-items: center;
+}
+.star1 .fa-star{
+    color: #FEC80E;
+    margin-right: 0.5vw;
+}
+.star1 p{
+    color: #666666;
+    margin-left: 1vw;
+}
+.satrsend{
+    background-color: #0097FF;
+    color: #FFFFFF;
+    font-size: 2.4vw;
+    border-radius: 2px;
+    padding: 0 0.6vw;
+}
+.sendmifan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom:2vw ;
+    color: #666;
+    font-size: 2.5vw;
+}
+.jieshao{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3vw;
+
+}
+.jieshao div{
+    border: solid 1px #DDD;
+    border-radius: 4px;
+    font-size: 2.8vw;
+    color: #666;
+    padding: 0 0.5vw;
+}
+.promotion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.8vw;
+}
+.promotion-left{
+    display: flex;
+    align-items: center;
+}
+.promotion-left div{
+    width: 4vw;
+    height: 4vw;
+    background-color: #70BC46;
+    font-size: 3vw;
+    color: #FFFFFF;
+
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.promotion-left p{
+    color: #666666;
+    font-size: 3vw;
+    margin-left: 2vw;
+}
+.promotion-right{
+    display: flex;
+    align-items: center;
+    font-size: 2.5vw;
+    color: #999;
+}
+.promotion-right p{
+    margin-right: 2vw;
+}
+.promotion-left2{
+    display: flex;
+    align-items: center;
+}
+.promotion-left2 div{
+    width: 4vw;
+    height: 4vw;
+    background-color: #FEC80E;
+    font-size: 3vw;
+    color: #FFFFFF;
+
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.promotion-left2 p{
+    color: #666666;
+    font-size: 3vw;
+    margin-left: 2vw;
+}
+.footer{
+    width: 100%;
+    height: 14vw;
+    border-top:solid 1px #666666;
+    background-color: #FFFFFF;
+
+    position: fixed;/*固定定位*/
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.footer li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #999999;
+    cursor: pointer;
+    user-select: none;
+}
+.footer li p{
+    font-size: 2.8vw;
+}
+.footer li i{
+    font-size: 5.0vw;
+}
