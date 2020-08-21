@@ -5,6 +5,7 @@
     <title>Title</title>
 </head>
 <body>
+<<<<<<< HEAD
 <button>
     点击
 </button>
@@ -30,3 +31,26 @@
 </script>
 </body>
 </html>
+=======
+<button>点击</button>
+<div></div>
+<script>
+    var btn = document.querySelector('button')
+    var div = document.querySelector('div')
+    btn.addEventListener('click', function () {
+        location.href = 'http://www.baidu.com';
+    })
+    var time = 3
+    setInterval(function () {
+        if (time == 0){
+            location.href = 'http://www.baidu.com';
+        }else {
+            div.innerHTML = '您将在' + time + '之后跳转至百度首页'
+            time--;
+        }
+    }, 1000)
+
+</script>
+</body>
+</html>
+>>>>>>> 4c934f9ce302e8467cb11ead32c6d0c68db279b0

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+<<<<<<< HEAD
 <body>
 <button>
     点击停止炸弹
@@ -25,3 +26,21 @@
 </script>
 </body>
 </html>
+=======
+
+<body>
+<button>点击停止炸弹</button>
+<script>
+    function callback() {
+        alert('来颗华子')
+    }
+    var timer = setTimeout(callback, 5000)
+    document.querySelector('button').addEventListener('click', function () {
+        // 清除定时器
+        clearTimeout(timer)
+    })
+
+</script>
+</body>
+</html>
+>>>>>>> 4c934f9ce302e8467cb11ead32c6d0c68db279b0
